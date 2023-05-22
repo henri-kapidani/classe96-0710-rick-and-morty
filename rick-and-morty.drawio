@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" modified="2023-05-22T11:18:46.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gmynK1fCE1DSkid7RakJ" version="21.1.4" type="device">
+  <diagram name="Page-1" id="osfI2Jjgnhno8yd-63b6">
+    <mxGraphModel dx="1615" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_XZQ2Vlt4-naKMEA5dbt-1" value="App.vue&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;TITOLO" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="184" y="100" width="460" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="_XZQ2Vlt4-naKMEA5dbt-2" value="" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="219" y="190" width="390" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="_XZQ2Vlt4-naKMEA5dbt-3" value="AppSearch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_XZQ2Vlt4-naKMEA5dbt-4" value="CharacterList" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="249" y="300" width="330" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_XZQ2Vlt4-naKMEA5dbt-5" value="CharacterCard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="355" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="_XZQ2Vlt4-naKMEA5dbt-6" value="CharacterCard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="355" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="_XZQ2Vlt4-naKMEA5dbt-7" value="ResultsMessage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="640" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_XZQ2Vlt4-naKMEA5dbt-8" value="CharacterCard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="120" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
