@@ -1,7 +1,17 @@
 <script>
 export default {
 	props: {
-		characterData: Object,
+		characterData: {
+			type: Object,
+			default() {
+				return {
+					name: 'no name',
+					image: 'default img url',
+					status: 'bo',
+					species: 'human',
+				};
+			},
+		},
 	},
 };
 </script>

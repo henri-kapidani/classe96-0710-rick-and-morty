@@ -16,11 +16,36 @@ export default {
 		CharacterList,
 		ResultsMessage,
 	},
+	methods: {
+		// requestDataFromApi(objSearchParameters) {
+		// 	console.log(objSearchParameters);
+		// 	axios
+		// 		.get('https://rickandmortyapi.com/api/character/', {
+		// 			params: {
+		// 				name: objSearchParameters.searchStr,
+		// 				status: objSearchParameters.status,
+		// 			},
+		// 		})
+		// 		.then(
+		// 			response => (this.store.characterList = response.data.results)
+		// 		);
+		// },
+		requestDataFromApi() {
+			axios
+				.get('https://rickandmortyapi.com/api/character/', {
+					params: {
+						name: this.store.searchStr,
+						status: this.store.searchStatus,
+					},
+				})
+				.then(
+					response => (this.store.characterList = response.data.results)
+				);
+		},
+	},
 	created() {
 		// qui fare la richiesta all'api
-		axios
-			.get('https://rickandmortyapi.com/api/character')
-			.then(response => (this.store.characterList = response.data.results));
+		this.requestDataFromApi();
 	},
 };
 </script>
@@ -30,7 +55,7 @@ export default {
 		<h1>Rick and Morty App</h1>
 
 		<main>
-			<AppSearch />
+			<AppSearch @performSearch="requestDataFromApi" />
 			<CharacterList />
 			<ResultsMessage />
 		</main>
